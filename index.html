@@ -217,6 +217,7 @@ img{display:block;max-width:100%}
 
 /* ── SERVICES — photo mosaic ────────────────────── */
 #servicos{padding:8rem 0 0;background:var(--blk)}
+#servicos .serv-header .sub{white-space:nowrap;max-width:none}
 .serv-header{margin-bottom:3.5rem}
 .serv-mosaic{
   display:grid;
@@ -657,6 +658,7 @@ footer{
   .ham{display:flex}
   .hero-line{display:none}
   .hero-h1{font-size:3.744rem;margin-bottom:1rem;text-align:center}
+  #hero{padding-top:136px}
   .hero-bg{background-position:calc(50% - 60px) center}
   .hero-content{width:100%;align-items:center}
   .hero-sub{flex-direction:column;align-items:center;gap:1rem;width:100%;text-align:center}
@@ -673,8 +675,8 @@ footer{
   .frow{grid-template-columns:1fr}
   .hero-stats{gap:2.5rem;width:100%;justify-content:center;flex-wrap:nowrap;margin-top:-10px}
   .hstat{flex:0 0 auto;padding-left:0;border-left:none;text-align:center}
-  .hstat-n{font-size:1.5rem}
-  .hstat-l{font-size:.62rem;white-space:normal;line-height:1.2;max-width:5rem;margin-top:.5rem}
+  .hstat-n{font-size:1.85rem}
+  .hstat-l{font-size:.75rem;white-space:normal;line-height:1.2;max-width:6rem;margin-top:.5rem}
   .sobre-badge{bottom:.5rem;right:.5rem}
   .pd-photo{background-attachment:initial}
   .sobre-grid{padding-left:.75rem;padding-right:.75rem}
@@ -700,6 +702,7 @@ footer{
   .form-panel .frow{grid-template-columns:1fr;padding:0}
   #contato{padding:6rem 0 2rem 0}
   #servicos{padding:3rem 0 0}
+  #servicos .serv-header .sub{white-space:normal}
   .foot-grid{padding-left:.75rem;padding-right:.75rem;grid-template-columns:1fr}
   .foot-brand{text-align:center}
   .foot-brand .logo-wrap{justify-content:center}
@@ -778,15 +781,15 @@ footer{
       <div class="hero-stats">
         <div class="hstat">
           <div class="hstat-n">+15</div>
-          <div class="hstat-l">Anos de experiência</div>
+          <div class="hstat-l">Anos de<br class="mob-br"> experiência</div>
         </div>
         <div class="hstat">
           <div class="hstat-n">+500</div>
-          <div class="hstat-l">Clientes atendidos</div>
+          <div class="hstat-l">Clientes<br class="mob-br"> atendidos</div>
         </div>
         <div class="hstat">
           <div class="hstat-n">+10k</div>
-          <div class="hstat-l">Peças fabricadas</div>
+          <div class="hstat-l">Peças<br class="mob-br"> fabricadas</div>
         </div>
       </div>
     </div>
@@ -819,7 +822,7 @@ footer{
     <div class="serv-header" data-reveal>
       <div class="label">O que fazemos</div>
       <h2 class="h-section">Nossos <span>Serviços</span></h2>
-      <p class="sub" style="white-space:nowrap;max-width:none">Soluções completas em metalurgia — do torno à solda, da recuperação à entrega.</p>
+      <p class="sub">Soluções completas em metalurgia — do torno à solda, da recuperação à entrega.</p>
     </div>
   </div>
 
